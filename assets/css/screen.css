@@ -1400,7 +1400,7 @@ body.page-template .post-title {
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 200;
-    color: #50585D;
+    color: #cacaca;
     letter-spacing: 0;
     text-indent: 0;
 }
@@ -1428,6 +1428,11 @@ body.page-template .post-title {
    pagination prev/next links */
 .paged .author-profile .author-meta {
     display: none;
+}
+
+div#disqus_thread {
+    max-width: 80%;
+    margin: auto;
 }
 
 
